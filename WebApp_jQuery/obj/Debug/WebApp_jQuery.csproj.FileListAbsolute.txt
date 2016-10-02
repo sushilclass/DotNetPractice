@@ -1,0 +1,6 @@
+C:\Users\user\Documents\Visual Studio 2013\Projects\WebApp_jQuery\WebApp_jQuery\bin\WebApp_jQuery.dll.config
+C:\Users\user\Documents\Visual Studio 2013\Projects\WebApp_jQuery\WebApp_jQuery\bin\WebApp_jQuery.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\WebApp_jQuery\WebApp_jQuery\bin\WebApp_jQuery.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\WebApp_jQuery\WebApp_jQuery\obj\Debug\WebApp_jQuery.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\WebApp_jQuery\WebApp_jQuery\obj\Debug\WebApp_jQuery.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\WebApp_jQuery\WebApp_jQuery\obj\Debug\WebApp_jQuery.csprojResolveAssemblyReference.cache

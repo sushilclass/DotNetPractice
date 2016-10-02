@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "jQuery Ajax Call example in ASP.NET MVC";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" type="text/css" href="~/Areas/ProductList/CSS/product.css">
+<script src="~/Scripts/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="~/Areas/ProductList/Scripts/Common.js"></script>
+<script type="text/javascript" src="~/Areas/ProductList/Scripts/product.js"></script>
+<h2> jQuery Ajax Call example in ASP.NET MVC</h2>
+
+@using (Html.BeginForm("CategoryChosen", "Home", FormMethod.Get))
+{
+    <table cellspacing="2" cellpadding="2">
+        <tr>
+            <td>
+                Category Type :
+            </td>
+            <td>
+                @Html.DropDownList("CategoryType")
+
+            </td>
+        </tr>
+    </table>
+    <br /><br />
+
+    <div>
+        <table id="tblProducts" class="tblProducts">
+            <thead>
+                <tr>
+                    <th align="left" class="productth">ProductID</th>
+                    <th align="left" class="productth">ProductName</th>
+                    <th align="left" class="productth">QuantityPerUnit</th>
+                    <th align="left" class="productth">UnitPrice</th>
+                    <th align="left" class="productth">UnitsInStock</th>
+                    <th align="left" class="productth">ReorderLevel</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+}

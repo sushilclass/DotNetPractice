@@ -1,0 +1,26 @@
+﻿@model MVC_BasicTutorial.Models.Member
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Membership</title>
+</head>
+<body>
+    <div> 
+        @using(Html.BeginForm("Membership","Student"))
+        {
+            <p>Membership Id : @Html.EditorFor(m=>m.MemberId)</p>
+            <p>Membership Name : @Html.EditorFor(m=>m.MemberName)</p>
+            <p>Membership Address : @Html.EditorFor(m=>m.MemberAddress)</p>
+            <p>Membership Age : @Html.EditorFor(m=>m.MemberAge)</p>
+            <p><input type="submit" name="submit" value="Submit Form" /></p>
+        }
+    </div>
+</body>
+</html>
